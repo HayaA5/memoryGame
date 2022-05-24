@@ -1,0 +1,112 @@
+.card{
+    color: yellow;
+    background-color: rgb(174, 52, 52);
+    font-size: 30px;
+    width:195px;
+    height: 195px;
+    border-radius: 10px;
+    border :rgb(174, 52, 52) solid 3px;
+    text-align:center;
+    margin:3px;
+    /* flex-wrap: wrap; */
+}
+.card:hover{ 
+    background-color: rgb(238, 238, 191);
+}
+
+#board{
+    width:90%;
+    height:90%;
+     display: grid; 
+    grid-template-columns: repeat(6, auto);
+     margin-left:50px;
+}
+
+.bear{
+  background-image: url('./images/bear.jpg');
+}
+.bird{
+  background-image: url('./images/bird.jpg');
+}
+.cat{
+  background-image: url('./images/cat.jpg');
+}
+.dog{
+  background-image: url('./images/dog.jpg');
+}
+.fish{
+  background-image: url('./images/fish.jpg');
+}
+.giraffe{
+  background-image: url('./images/giraffe.jpg');
+}
+
+.monkey{
+  background-image: url('./images/monkey.jpg');
+}
+.tiger{
+  background-image: url('./images/tiger.jpg');
+}
+.horse{
+  background-image: url('./images/horse.jpg');
+}
+
+
+  .button-disabbled{
+    cursor: none;
+    color: lightgray;
+    background-color: aliceblue;
+    
+    }
+
+    #title{
+      margin:20px;
+      background: beige;
+      justify-content: center;
+      text-align: center;
+      font-family: "castellar";
+      color:chocolate;
+    }
+    body{
+      margin:20px;
+      background:beige;
+      font-family: "castellar";
+      color:chocolate;
+    }
+
+    .player1{
+      width:50%;
+      float: left;
+    }
+    .player2{
+      width:50%;
+      float: right;
+    }
+  #score1{
+      width:50%;
+      float: left;
+    }
+    #score2{
+      width:50%;
+      float: right;
+    }
+#players{
+  width:50%;
+   /* justify-content: center; */
+  text-align: center;
+  margin: 0 auto;
+}
+   
+
+.score{
+  text-align: center;
+}
+
+#startBtn{
+  text-align: center;
+}
+
+#turn{
+  color:red;
+  font-size:bold;
+}
